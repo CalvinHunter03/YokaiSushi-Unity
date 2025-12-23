@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 14644084}
   - component: {fileID: 14644086}
   - component: {fileID: 14644085}
+  - component: {fileID: 14644087}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -194,6 +195,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14644083}
   m_CullTransparentMesh: 1
+--- !u!114 &14644087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14644083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113aadf58249d394f9849c95c7e381e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cardHover
 --- !u!1 &78186494
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,6 +521,7 @@ GameObject:
   - component: {fileID: 271003384}
   - component: {fileID: 271003386}
   - component: {fileID: 271003385}
+  - component: {fileID: 271003387}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -572,6 +586,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 271003383}
   m_CullTransparentMesh: 1
+--- !u!114 &271003387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271003383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113aadf58249d394f9849c95c7e381e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cardHover
 --- !u!1 &280466849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,6 +1052,7 @@ GameObject:
   - component: {fileID: 473474186}
   - component: {fileID: 473474188}
   - component: {fileID: 473474187}
+  - component: {fileID: 473474189}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1090,6 +1117,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473474185}
   m_CullTransparentMesh: 1
+--- !u!114 &473474189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473474185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113aadf58249d394f9849c95c7e381e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cardHover
 --- !u!1 &677491142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,6 +1176,7 @@ GameObject:
   - component: {fileID: 690401335}
   - component: {fileID: 690401337}
   - component: {fileID: 690401336}
+  - component: {fileID: 690401338}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1201,6 +1241,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690401334}
   m_CullTransparentMesh: 1
+--- !u!114 &690401338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690401334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113aadf58249d394f9849c95c7e381e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cardHover
 --- !u!1 &759582710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,6 +1691,7 @@ GameObject:
   - component: {fileID: 1338687919}
   - component: {fileID: 1338687921}
   - component: {fileID: 1338687920}
+  - component: {fileID: 1338687922}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1703,6 +1756,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338687918}
   m_CullTransparentMesh: 1
+--- !u!114 &1338687922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338687918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113aadf58249d394f9849c95c7e381e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cardHover
 --- !u!1 &1399942390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +1779,7 @@ GameObject:
   - component: {fileID: 1399942391}
   - component: {fileID: 1399942393}
   - component: {fileID: 1399942392}
+  - component: {fileID: 1399942394}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1778,6 +1844,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399942390}
   m_CullTransparentMesh: 1
+--- !u!114 &1399942394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399942390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113aadf58249d394f9849c95c7e381e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cardHover
 --- !u!1 &1426845005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,6 +1867,7 @@ GameObject:
   - component: {fileID: 1426845006}
   - component: {fileID: 1426845008}
   - component: {fileID: 1426845007}
+  - component: {fileID: 1426845009}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1853,6 +1932,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426845005}
   m_CullTransparentMesh: 1
+--- !u!114 &1426845009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426845005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113aadf58249d394f9849c95c7e381e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cardHover
 --- !u!1 &1470065504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,6 +1999,7 @@ GameObject:
   - component: {fileID: 1503302414}
   - component: {fileID: 1503302416}
   - component: {fileID: 1503302415}
+  - component: {fileID: 1503302417}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1972,6 +2064,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503302413}
   m_CullTransparentMesh: 1
+--- !u!114 &1503302417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503302413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113aadf58249d394f9849c95c7e381e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cardHover
 --- !u!1 &1628284608
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,6 +2220,7 @@ GameObject:
   - component: {fileID: 1667495501}
   - component: {fileID: 1667495503}
   - component: {fileID: 1667495502}
+  - component: {fileID: 1667495504}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2180,6 +2285,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667495500}
   m_CullTransparentMesh: 1
+--- !u!114 &1667495504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667495500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113aadf58249d394f9849c95c7e381e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cardHover
 --- !u!1 &1901992234
 GameObject:
   m_ObjectHideFlags: 0
