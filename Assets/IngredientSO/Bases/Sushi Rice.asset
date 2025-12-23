@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb6d4f383dac2944fa7f6cbd3085582e, type: 3}
+  m_Name: Sushi Rice
+  m_EditorClassIdentifier: Assembly-CSharp::IngredientSO
+  fullness: 10
+  satisfaction: 0
+  shelfLife: 5
+  type: 0
+  cardBase: {fileID: 21300000, guid: c49b6da46d0ca5948bbb35c4d7d83653, type: 3}
