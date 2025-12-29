@@ -12,7 +12,8 @@ public class cardHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     [SerializeField] private float timeToHover = 60.0f;
 
 
-    private Vector3 initialPos;
+    private Vector3 initialHoverPos;
+    private Vector3 initialDragPos;
 
     void Start()
     {
@@ -27,44 +28,54 @@ public class cardHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-
-        
-        GameObject pointerObject = eventData.pointerEnter.gameObject;
-        Vector3 newPos = new Vector3(pointerObject.transform.position.x, pointerObject.transform.position.y + cardHoverDistance, pointerObject.transform.position.z);
-
-        initialPos = transform.position;
-
-
-        if(pointerObject.GetComponent<UnityEngine.UI.Image>().sprite != null)
+        if (!CardHandManager.dragging)
         {
-            pointerObject.transform.position = Vector3.Lerp(pointerObject.transform.position, newPos, timeToHover);
+            
+        
+        
+            GameObject pointerObject = eventData.pointerEnter.gameObject;
+            Vector3 newPos = new Vector3(pointerObject.transform.position.x, pointerObject.transform.position.y + cardHoverDistance, pointerObject.transform.position.z);
+
+            initialHoverPos = transform.position;
+
+
+            if(pointerObject.GetComponent<UnityEngine.UI.Image>().sprite != null)
+            {
+                pointerObject.transform.position = Vector3.Lerp(pointerObject.transform.position, newPos, timeToHover);
+            }
         }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-
-        GameObject pointerObject = eventData.pointerEnter.gameObject;
-
-        if(pointerObject.GetComponent<UnityEngine.UI.Image>().sprite != null)
+        if (!CardHandManager.dragging)
         {
-            pointerObject.transform.position = Vector3.Lerp(pointerObject.transform.position, initialPos, timeToHover);
-        }
+            
         
+            GameObject pointerObject = eventData.pointerEnter.gameObject;
+
+            if(pointerObject.GetComponent<UnityEngine.UI.Image>().sprite != null)
+            {
+                pointerObject.transform.position = Vector3.Lerp(pointerObject.transform.position, initialHoverPos, timeToHover);
+            }
+        }
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        
+        CardHandManager.dragging = true;
+        initialDragPos = transform.position;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         transform.position = eventData.position;
+
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        transform.position = initialPos;
+        transform.position = initialDragPos;
+        CardHandManager.dragging = false;
     }
 }

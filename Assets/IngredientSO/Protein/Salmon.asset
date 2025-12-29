@@ -16,4 +16,4 @@ MonoBehaviour:
   satisfaction: 6
   shelfLife: 3
   type: 1
-  cardBase: {fileID: 21300000, guid: b2e3b457ba5c6134d9d9a6c91a227df8, type: 3}
+  cardBase: {fileID: 21300000, guid: 018eccbe5b4460140823d220eacbaefd, type: 3}
