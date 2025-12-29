@@ -15,6 +15,15 @@ public class cardHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     private Vector3 initialHoverPos;
     private Vector3 initialDragPos;
 
+    private cardInfo information;
+
+    public plate plateInGame;
+
+    void Awake()
+    {
+        information = GetComponent<cardInfo>();
+    }
+
     void Start()
     {
         
@@ -65,17 +74,28 @@ public class cardHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     {
         CardHandManager.dragging = true;
         initialDragPos = transform.position;
+
+        eventData.pointerEnter.gameObject.transform.parent.SetAsLastSibling();
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         transform.position = eventData.position;
+        
 
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        transform.position = initialDragPos;
+        if (!plate.cardOverPlate)
+        {
+            transform.position = initialDragPos;
+        }
+        else
+        {
+            Debug.Log(information);
+        }
         CardHandManager.dragging = false;
+
     }
 }
