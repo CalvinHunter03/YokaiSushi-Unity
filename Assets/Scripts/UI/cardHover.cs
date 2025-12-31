@@ -94,6 +94,14 @@ public class cardHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         else
         {
             Debug.Log(information.getFullness());
+
+            PlateManager.Singleton.plateFullness += information.getFullness();
+            PlateManager.Singleton.plateSatisfaction += information.getSatisfaction();
+
+            PlateManager.Singleton.updateTextDisplay();
+
+            Destroy(eventData.pointerEnter.gameObject);
+
         }
         CardHandManager.dragging = false;
 
