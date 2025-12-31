@@ -93,7 +93,7 @@ public class cardHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         }
         else
         {
-            Debug.Log(information);
+            Debug.Log(information.getFullness());
         }
         CardHandManager.dragging = false;
 

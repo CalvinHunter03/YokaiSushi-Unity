@@ -8,8 +8,8 @@ public class plate : MonoBehaviour
 
     public static bool cardOverPlate;
 
-    public float fullness;
-    public float statisfaction;
+    public float totalFullness;
+    public float totalStatisfaction;
     
 
     void Awake()
@@ -37,7 +37,6 @@ public class plate : MonoBehaviour
 
                 if (CardHandManager.dragging)
                 {
-                    Debug.Log("I am holding a ccard and over the plate");
                     cardOverPlate = true;
                 }
                 // Add your logic here (e.g., highlight object, show tooltip)
